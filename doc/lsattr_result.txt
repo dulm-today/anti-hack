@@ -1,0 +1,60 @@
+----i----------- /etc/hosts.allow
+----i----------- /etc/hosts.deny
+----ia---------- /etc/profile.d/php.sh
+----ia---------- /etc/profile.d/supervisor.sh
+----ia---------- /etc/cron.d/zzh
+----ia---------- /etc/cron.d/syszh
+----ia---------- /etc/cron.d/phps
+----ia---------- /etc/cron.d/phpx
+----ia---------- /etc/crontab
+----i----------- /etc/long.conf
+----i----------- /etc/deny.bak
+----i----------- /etc/allow.bak
+----ia---------- /etc/master
+----ia---------- /etc/zzh
+----ia---------- /etc/newinit.sh
+----ia---------- /etc/ld.so.preload
+----ia---------- /etc/sphp
+----ia---------- /etc/spts
+----ia---------- /etc/.supervisor/conf.d/123.conf
+----ia---------- /etc/.supervisor/supervisord.conf
+----ia---------- /root/.configrc
+----ia---------- /tmp/.X26-unix
+----i----------- /usr/bin/nohup
+----i----------- /usr/bin/killall
+----ia---------- /usr/bin/curl
+----i----------- /usr/bin/pkill
+----i----------- /usr/bin/ps
+----ia---------- /usr/bin/lsattr
+----i----------- /usr/bin/netstat
+----ia---------- /usr/bin/zh     ?
+----i----------- /usr/bin/nslookup
+----i----------- /usr/bin/dget   ?
+----i----------- /usr/bin/iss ?
+----i----------- /usr/bin/nets ?
+----i----------- /usr/bin/ips ?
+----ia---------- /usr/bin/shh ?
+----ia---------- /usr/bin/cphp ?
+----i----------- /usr/bin/lockr ?
+----i----------- /usr/bin/.locks ?
+----i----------- /usr/bin/.bget ?
+----i----------- /usr/bin/dpkgd/ss ?
+----i----------- /usr/bin/dpkgd/netstat ?
+----i----------- /usr/bin/dpkgd/ps ?
+----i----------- /usr/bin/longbak
+----i----------- /usr/bin/lockrc
+----ia---------- /usr/bin/.funzip
+----ia---------- /usr/bin/-bash
+----ia---------- /usr/bin/dbused
+----ia---------- /usr/bin/sysmd
+----i----------- /usr/bin/.locksc
+----i----------- /usr/sbin/ss
+----ia---------- /usr/sbin/-bash ?
+----ia---------- /usr/sbin/systemd ?
+----ia---------- /usr/sbin/https ?
+----ia---------- /usr/sbin/httpss ?
+----ia---------- /usr/lib/systemd/system/pwnriglhttps.service
+----ia---------- /usr/local/bin/pnsca
+----ia---------- /usr/local/bin/pnscan
+----ia---------- /usr/local/lib/libc2.28.so
+----ia---------- /usr/local/lib/libprocesshider.so
