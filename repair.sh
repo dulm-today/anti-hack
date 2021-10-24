@@ -50,7 +50,7 @@ virus_files="/etc/rc.d/init.d/selinux
 /usr/bin/sysmd
 /usr/bin/.locksc
 /usr/bin/.sshd
-/usr/bin.sh
+/usr/bin/.sh
 /usr/sbin/-bash
 /usr/sbin/systemd
 /usr/sbin/https
@@ -61,21 +61,15 @@ virus_files="/etc/rc.d/init.d/selinux
 "
 
 virus_proc="/usr/bin/bsd-port/getty
-/bin/\.sh
-\./\.sh
-/usr/bin/\.sshd
+/bin/\\.sh
+\\./\\.sh
+/usr/bin/\\.sshd
 "
 
 file_manual_check="/etc/hosts
 /etc/profile
 /etc/crontab
 "
-
-usage() {
-    cat <<EOF
-usage: $0 <rm|cp>
-EOF
-}
 
 echo_info() {
     local opt=$1
@@ -325,7 +319,7 @@ restore_files() {
     echo_result $?
 
     # restore libprocesshider.so
-    restore_file "/usr/local/lib/libprocesshider.so"
+    #restore_file "/usr/local/lib/libprocesshider.so"
 
     # restore /usr/bin
     for file in `ls $SYSROOT/usr/bin`
