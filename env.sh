@@ -7,7 +7,7 @@ export PATH=$SYSROOT/sbin:$SYSROOT/bin:$SYSROOT/usr/sbin:$SYSROOT/usr/bin:$PATH
 
 # ld.so.preload has been set, set LD_PRELOAD to override it
 export LD_PRELOAD=
-export LD_LIBRARY_PATH="$SYSROOT/lib:$SYSROOT/usr/lib"
+export LD_LIBRARY_PATH="$SYSROOT/lib:$SYSROOT/usr/lib:$SYSROOT/usr/lib64"
 
 WHITE=$(tput setaf 7)
 RED=$(tput setaf 1)
