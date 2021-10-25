@@ -58,6 +58,8 @@ virus_files="/etc/rc.d/init.d/selinux
 /usr/lib/systemd/system/pwnriglhttps.service
 /usr/local/bin/pnsca
 /usr/local/bin/pnscan
+/usr/lib/mysql/.sh
+/usr/lib/mysql/mysql
 "
 
 virus_proc="/usr/bin/bsd-port/getty
